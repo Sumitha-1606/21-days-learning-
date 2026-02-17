@@ -15,3 +15,8 @@ print(name)
 output:
 Sumitha
 
+name="Sam"
+age=16
+print(name,age)
+output:
+Sam 20
