@@ -1,0 +1,35 @@
+1.check Palindrome number:
+num = int(input("Enter a number: "))
+temp = num
+rev = 0
+while num > 0:
+    digit = num % 10
+    rev = rev * 10 + digit
+    num = num // 10
+if temp == rev:
+    print("Palindrome number")
+else:
+    print("Not palindrome")
+
+output:
+Enter a number: 272
+Palindrome number
+
+2.Armstrong number:
+num = int(input("Enter a number: "))
+temp = num
+sum = 0
+while num > 0:
+    digit = num % 10
+    sum = sum + digit**3
+    num = num // 10
+
+if temp == sum:
+    print("Armstrong number")
+else:
+    print("Not Armstrong")
+
+output:
+Enter a number: 153
+Armstrong number 
+
